@@ -236,8 +236,8 @@ export default function Landing() {
 
     spawnCards();
 
-    let coinInterval: number | undefined;
-    let rainTimeout: number | undefined;
+    let coinInterval: ReturnType<typeof setInterval> | undefined;
+    let rainTimeout: ReturnType<typeof setTimeout> | undefined;
 
     if (coinImageUrl) {
         const coinImg = new Image();
