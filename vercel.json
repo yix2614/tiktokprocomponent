@@ -1,6 +1,6 @@
 {
   "framework": "vite",
-  "installCommand": "pnpm install",
+  "installCommand": "pnpm install --save-dev @types/node",
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "rewrites": [
