@@ -1,6 +1,6 @@
 {
   "framework": "vite",
-  "installCommand": "pnpm install --save-dev @types/node",
+  "installCommand": "pnpm install --registry=https://registry.npmjs.org",
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "rewrites": [
