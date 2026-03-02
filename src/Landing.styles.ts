@@ -1,0 +1,80 @@
+import type { CSSProperties } from 'react';
+
+export const landingStyles: Record<string, CSSProperties> = {
+  page: {
+    width: '100%',
+    height: '100%',
+    minHeight: '600px',
+    position: 'relative',
+  },
+  banner: {
+    position: 'absolute',
+    top: 20,
+    left: 0,
+    width: '100vw',
+    height: 24,
+    padding: '0 20px',
+    display: 'flex',
+    alignItems: 'flex-start',
+    justifyContent: 'flex-start',
+    zIndex: 2,
+    color: '#000',
+    background: 'transparent',
+  },
+  bannerText: {
+    fontSize: 8,
+    letterSpacing: 0.2,
+    lineHeight: '100%',
+  },
+  bannerLogo: {
+    width: '30%',
+    display: 'flex',
+    alignItems: 'center',
+  },
+  bannerTextBlock: {
+    width: '35%',
+    textAlign: 'center',
+  },
+  bannerTextRight: {
+    textAlign: 'right',
+  },
+  middleBanner: {
+    position: 'absolute',
+    top: 104,
+    left: 0,
+    width: '100vw',
+    padding: '0 24px',
+    color: '#000',
+    zIndex: 2,
+    pointerEvents: 'none',
+    display: 'flex',
+    alignItems: 'flex-start',
+    justifyContent: 'space-between',
+    gap: 12,
+  },
+  middleBannerLeft: {
+    width: '50%',
+    fontSize: 24,
+    lineHeight: '100%',
+    fontWeight: 600,
+  },
+  middleBannerRight: {
+    width: '50%',
+    fontSize: 84,
+    lineHeight: 1,
+    textAlign: 'right',
+    fontWeight: 700,
+  },
+  middleBannerRightInner: {
+    display: 'inline-block',
+    textAlign: 'left',
+  },
+  scene: {
+    width: '100%',
+    height: '100%',
+    minHeight: '600px',
+    overflow: 'hidden',
+    background: '#F7F6FB',
+    position: 'relative',
+  },
+};

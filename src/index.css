@@ -1,0 +1,27 @@
+:root {
+  color-scheme: light dark;
+}
+
+@font-face {
+  font-family: "TikTok Sans";
+  src: url("/webfonts/TikTokSans[opsz,slnt,wdth,wght].woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: auto;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "TikTok Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
+  background: Canvas;
+  color: CanvasText;
+}
