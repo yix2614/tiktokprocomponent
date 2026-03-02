@@ -1,12 +1,5 @@
 {
-  "framework": "vite",
-  "installCommand": "npm ci",
+  "installCommand": "pnpm install",
   "buildCommand": "npm run build",
-  "outputDirectory": "dist",
-  "env": {
-    "NPM_CONFIG_REGISTRY": "https://registry.npmjs.org"
-  },
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
-  ]
+  "outputDirectory": "dist"
 }
